@@ -1,0 +1,14 @@
+#exercice6{
+  background-color: black;
+  color: grey;
+}
+#champ {
+  margin-left: 200px;
+}
+
+#rectangle {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>EXERCICE 15</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="exercice6">
+    <h1>Exercice 15 EN JQUERY</h1>
+    <form>
+      <label for="lastName">Nom : </label><input type="text" name="lastName" id="lastName" />
+      <label for="firstName">Prénom : </label><input type="text" name="firstName" id="firstName" />
+      <button type="button" name="button">Envoyer</button>
+    </form>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $('#lastName').focus(function() {
+      $('#lastName').css('border', '1px solid green');
+    });
+    $('#firstName').focus(function() {
+      $('#firstName').css('border', '1px solid green');
+    });
+    $('#lastName').blur(function() {
+      $('#lastName').css('border', '1px solid red');
+    });
+    $('#firstName').blur(function() {
+      $('#firstName').css('border', '1px solid red');
+    });
+  </script>
+</html>

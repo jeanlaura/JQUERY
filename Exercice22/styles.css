@@ -1,0 +1,11 @@
+#exercice6{
+  background-color: black;
+  color: grey;
+}
+ul{
+  list-style-type: none;
+  display: block;
+}
+li{
+  display: block;
+}
